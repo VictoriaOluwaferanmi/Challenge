@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#6A62D2;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+background-color: white;
+height: 450px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+
+
+margin:5% 30%;
+}
+
+.big_text{
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    padding: 1em 1em;
+}
+.form{
+  
+    margin-top: 1em;
+    padding: 0 1em;
+    text-align: center;
+}
+input{
+height: 50px;
+width: 300px;
+background-color: #E5E8ED;
+padding-left: 3em;
+font-size: 16px;
+border:none;
+border-radius: 5px;
+}
+::placeholder{
+    color: #848A96;
+    font-size: 18px;
+}
+#email_input{
+    margin-bottom: 1rem;
+    border: none;
+}
+#password_input{
+    font-size: 24px;
+    border: none;
+}
+
+.check{
+width: 15px;
+height: 15px;
+margin-top: 1.5rem;
+margin-left: 1rem;
+
+
+}
+label{
+    color: #9498A3;
+    font-size: 14px;
+}
+
+#sign_in{
+height: 50px;
+width: 300px;
+border-radius: 5px;
+background-color: #746BDE;
+margin-left: 1rem;
+padding-right: 1rem;
+margin-top: 2rem;
+text-align: center;
+padding-left: 2em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #F9F8FD;
+    font-weight: bold;
+    
+ 
+}
+.text{
+    font-size:14px;
+    color:#9498A3;
+    margin:1.5em 1em;
+    padding-left: 2em;
+    text-align:  center;
+    line-height: 30px;
+
+}
